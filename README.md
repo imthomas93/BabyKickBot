@@ -85,16 +85,18 @@ BabyKickBot is a Telegram bot designed to log and summarize baby kicks efficient
    - **Security Group**: Allow SSH (port 22) and HTTPS (port 443).
 
 3. Connect to the instance using SSH:
-   ```bash
+   ```
+   bash
    ssh -i /path/to/key.pem ec2-user@<INSTANCE_PUBLIC_IP>
+   ```
 
 ### **2. Set Up the Environment on EC2**
 
-**Update Packages**:
-   First, ensure that your EC2 instance is up-to-date with the latest packages.
-   ```bash
-   sudo yum update -y
-   sudo yum install git python3 -y
+**Update Packages** to ensure that your EC2 instance is up-to-date with the latest packages.
+```
+sudo yum update -y
+sudo yum install git python3 -y
+```
 
 ### **3. Clone the Repository: Clone your bot repository from GitHub to the instance:**
 ```
@@ -119,7 +121,7 @@ To securely store sensitive data like your Telegram bot token and the path to th
 
 ---
 
-#### **License**
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](License) file for details.
    
