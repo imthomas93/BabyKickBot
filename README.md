@@ -90,7 +90,7 @@ BabyKickBot is a Telegram bot designed to log and summarize baby kicks efficient
 
 ### **2. Set Up the Environment on EC2**
 
-1. **Update Packages**:
+**Update Packages**:
    First, ensure that your EC2 instance is up-to-date with the latest packages.
    ```bash
    sudo yum update -y
@@ -98,7 +98,7 @@ BabyKickBot is a Telegram bot designed to log and summarize baby kicks efficient
 
 ### **3. Clone the Repository: Clone your bot repository from GitHub to the instance:**
 ```
-git clone https://github.com/your-username/BabyKickBot.git
+git clone https://github.com/imthomas93/BabyKickBot.git
 cd BabyKickBot
 ```
 
